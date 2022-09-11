@@ -1,0 +1,50 @@
+#navbar ul li {
+    list-style: none;
+    margin-right: 20px;
+    color: aliceblue;
+    margin-top: 30px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+#navbar{
+    background: #111;
+    height: 80px;
+}
+
+#gallery ul{
+    display: flex;
+    justify-content: center;
+}
+#gallery ul li {
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid grey;
+    padding: 50px;
+
+}
+
+#gallery ul li img {
+    width: 300px;
+    height: 300px   ;
+}
+#gallery ul li button {
+    background-color: #111;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#footer{
+    justify-content: center;
+    text-align: center;
+    background-color: #111;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+#footer h4 b {
+    font-size: 23px;
+}
